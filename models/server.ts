@@ -4,11 +4,11 @@ const serverSchema = new mongoose.Schema({
   country: {
     type: String,
     required: true,
+    // unique: true,
   },
   countryImage: {
     type: String,
     required: true,
-    unique: true,
   },
 });
 
